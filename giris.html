@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@
     <nav>
         <div class="container clearfix">
             <div id="logo-box">
-                <a href="index.html" class="logo text-uppercase">
+                <a href="hakkimda.html" class="logo text-uppercase">
                     Anasayfa
                 </a>
             </div>
@@ -83,23 +83,25 @@
 
     <header class=" text-uppercase">
         <div class="baslik">
-            giris
+            giriş
         </div>
     </header>
 
     <main>
         <div class="main-box">
-            <div class="main-items">
-                Kullanıcı Adı:<input type="text" class="">
-            </div>
+            <form action="giris.php" method="post">
+                <div class="main-items">
+                    Kullanıcı Adı:<input type="text" name="Kullanıcı">
+                </div>
 
-            <div class="main-items">
-                Şifre: <input type="text" class="">
-            </div>
-            
-            <div>
-                <button>Giriş</button>
-            </div>
+                <div class="main-items">
+                    Şifre: <input type="password" name="sifre">
+                </div>
+
+                <div>
+                    <button>Giriş</button>
+                </div>
+            </form>
 
         </div>
     </main>

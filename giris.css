@@ -53,10 +53,10 @@ ul {
 
 nav {
     font-family: Montserrat;
-    background-color: #2c3e4f;
-    color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    background-color: #222831;
+    color: #EEEEEE;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #logo-box {
@@ -92,14 +92,13 @@ nav {
 }
 
 #nav-links .nav-link:hover {
-    color: #1abc9b;
+    color: #76ABAE;
 }
 
 /*header*/
 
-
 .baslik {
-    background-color: black;
+    background-color: #76ABAE;
     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -107,7 +106,7 @@ nav {
     /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; */
     font-family: Montserrat;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
 }
@@ -116,14 +115,14 @@ nav {
 main {
     width: 100%;
     height: 573px;
-    background-color: #1abc9b;
+    background-color: #EEEEEE;
 }
 
 .main-box {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     font-weight: 400;
-    color: black;
+    color: #222831;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,6 +132,7 @@ main {
 }
 
 .main-items {
+    font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -150,22 +150,19 @@ button {
     padding-top: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
-    background-color: #2c3e4f;
+    background-color: #222831;
     color: #fff;
     border-radius: 10px;
 }
 
 button:hover {
-    color: #1abc9b;
+    color: #76ABAE;
 }
-
-
-
 
 /*footer*/
 
 footer {
-    background-color: #2c3e4f;
+    background-color: #222831;
     color: #fff;
     text-align: center;
     padding-top: 1rem;

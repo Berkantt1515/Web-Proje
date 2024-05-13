@@ -1,0 +1,17 @@
+* {
+     font-family:"anton",sans-serif;
+     font-size: 400;
+}
+
+html {
+    background-color:darkblue;
+    color: white;
+}
+
+h1 { 
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.50;
+    text-align: center;
+    margin-top: 20%;
+}
