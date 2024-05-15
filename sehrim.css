@@ -1,25 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-size: 8px;
-
-
 }
 
 
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.50;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .container {
@@ -49,21 +39,17 @@ ul {
     text-transform: uppercase;
 }
 
-p {
-    font-family: "Lato", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1.50;
-}
+
 
 /*Navbar*/
 
 nav {
     font-family: Montserrat;
-    background-color: #2c3e4f;
+    background-color: #222831;
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
 }
 
 #logo-box {
@@ -76,7 +62,7 @@ nav {
     font-weight: 700;
     font-size: 3rem;
     margin-left: 50px;
-    
+
 }
 
 #nav-links {
@@ -103,44 +89,108 @@ nav {
 }
 
 /*header*/
-
+header {
+    background-color: #EEEEEE;
+}
 
 .baslik {
-    background-color: black;
+    background-color: #76ABAE;
     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-family: Montserrat; 
-    font-size: 1.4rem; 
-    font-weight: 700; 
-    letter-spacing: 0.1rem; 
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
-/*main*/ 
+/*main*/
+main {
+    background-color: #EEEEEE;
+}
+.carousel slide{
 
-.main-box {
+}
+
+.carousel {
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+.carousel-inner {
+    width: 70%;
+    height: auto;
+    ;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.carousel-control-prev-icon {
+    filter: invert(1) !important;
+    height: 25px;
+    width: 25px;
+}
+
+.carousel-control-next-icon {
+    filter: invert(1) !important;
+    height: 25px;
+    width: 25px;
+}
+
+.bilgiler{
+    margin: 50px;
+    padding: 10px;
+    border: 2px solid #76ABAE;
+    border-radius: 20px;
     display: flex;
 }
-.main-box div {
-    width: 50%;
-    padding: 2rem;
+
+.sol-text{
+    flex: 1;
+    padding-top: 80px;
+}
+.sag-foto {
+    flex: 1;
+}
+
+.sag-foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
 }
 
 
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #1abc9b;
+    padding-top: 10px;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.3rem;
+    color: #222831;
+    line-height: 1.5;
+   
+}
 
 /*footer*/
 
 footer {
-    background-color: #2c3e4f;
+
+    background-color: #222831;
     color: #fff;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: absolute;
-    bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     width: 100%;
-
 }

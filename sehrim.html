@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -19,8 +21,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="sehrim.css">
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
 
 </head>
 
@@ -81,40 +88,212 @@
         </div>
     </nav>
 
-    <header class="container text-uppercase">
+    <header class="text-uppercase">
         <div class="baslik">
             Şehrim
         </div>
     </header>
 
     <main>
-        <div class="main-box">
-            <div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#kentormani">
+                        <img src="photos/kentormani.jpeg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#insuyu">
+                        <img src="photos/insuyu.webp" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#sagalasos">
+                        <img src="photos/sagalasos.jpg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#incirhan">
+                        <img src="photos/incirhan.jpg" class="d-block w-100" alt="...">
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="bilgiler" id="kentormani">
+
+
+            <div class="sol-text" style="padding-right: 10px;">
+                <h1>Bucak Oğuzhan Kent Ormanı</h1>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum ipsa labore recusandae accusamus saepe
-                    incidunt est molestias accusantium adipisci perspiciatis cupiditate, tempora natus ab repellat vitae
-                    ipsum corrupti eius laboriosam. Provident laboriosam iste aspernatur incidunt sed perspiciatis
-                    dolore!
-                    Ea praesentium eaque ducimus sunt nobis sint omnis quas, itaque alias voluptas? At, totam doloribus!
-                    Doloremque, consequatur corporis, blanditiis sed laudantium ratione numquam vel unde dolores rem
-                    doloribus ex perferendis, voluptatem consequuntur. Exercitationem expedita sapiente voluptatem,
-                    libero
-                    at asperiores quas debitis voluptate maiores quisquam fuga hic commodi numquam harum, excepturi eius
-                    tempore in incidunt magnam maxime alias cupiditate eos earum. Numquam, quidem!
+                    Bucak Orman İşletme Müdürlüğü sahası içerisinde bulunan 125 hektarlık ormanlık alan Bucak Oğuzhan
+                    Kent
+                    Ormanı olarak Antalya – Burdur karayolu üzerindeki Onaç Barajı batı ve kuzey kısımlarında mesirelik
+                    alan
+                    olarak hizmete açıldı.Eşsiz Onaç Barajı manzarası ile kızılçam, fıstıkçam gibi ağaçların bulunduğu
+                    sahada hızlı şekilde projeleri hazırlanarak mesire yerleri için, restaurant, kafeterya, hizmet
+                    binaları,
+                    oturma bankları, kamelyalar, yürüyüş ve bisiklet yollarıyla tüm vatandaşlara eşsiz doğa manzarasında
+                    keyifli anlar sunuyor.
+
+                    Kent ormanımızın piknik alanında güzel manzaların eşliğinde pikniğinizi yapabilir, dilersenizde
+                    faaliyette olan restaurantında orman ve göl manzarası eşliğinde doğal ve lezzetli menülerin tadına
+                    bakabilirsiniz. Kır düğün bahçesininde hizmete girdiği kent ormanımıza ziyaretinizi bekleriz.
                 </p>
             </div>
-
-            <div>
-                <img src="img/bucak.jpg" alt="bucak">
-
+            <div class="sag-foto">
+                <img src="photos/kentormani.jpeg">
             </div>
-
-
 
 
         </div>
 
+        <div class="bilgiler" id="insuyu">
+
+            <div class="sag-foto" style="padding-top: 100px;">
+                <img src="photos/insuyu.webp">
+            </div>
+
+            <div class="sol-text" style="padding-top: 0; padding-left: 10px;">
+                <h1>İNSUYU MAĞARASI</h1>
+                <p>
+                    İnsuyu Mağarası, Burdur il merkezine göre güneydoğuda 10 km uzaklıkta bulunmaktadır. Çatağıl Köyü[1]
+                    sınırları içerisindedir. Uzunluğu 597 metre ve en geniş yeri 80 metre civarındadır. Birbirine bağlı
+                    9
+                    boşluktan oluşur. Boşluk yanaklarında birikmiş sular gölcükler oluşturmuştur. Gölcükler, mağara
+                    tabanından
+                    geçen karstik bir yer altı akarsuyu ile birbirine bağlıdır.
+
+                    Mağara yatay olarak uzanır ve hidrolojik olarak kaynak özelliği taşımaktadır. Yani aktif olup çok
+                    dönemli
+                    oluşum özelliği taşımaktadır. Jura-Kretase yaşlı kireçtaşları içerisinde oluşmuş bulunan mağara aynı
+                    zamanda
+                    kırık hatlar üzerinde bulunmaktadır. İnsuyu Mağarası'nın suları aynı fay üzerinde ve kuzeyde bulunan
+                    Kızılin
+                    Mağarası'ndan gelmektedir. Doğu-batı ve kuzey-güney yönlü fay hatlarının kesişme yerinde bulunan
+                    mağara
+                    ağzından çıkan kaynak suları mağara üzerinde traverten düzlükleri oluşturmuştur.
+
+                    İnsuyu Mağarası'nda; karstik yapının zamanla erimesi ve aşınması sonucunda mağara içinde sarkıt ve
+                    dikitler
+                    meydana gelmiştir. Ayrıca girintili çıkıntılı çeşitli yönlere açılan dehlizler bulunmaktadır.
+
+                    Sarkıt ve dikitlerle kaplı mağaranın girişindeki bir faydan çıkan karbonatlı maden suyu, mağara
+                    içindeki
+                    küçük bir yer altı deresinin suyuna karışmaktadır.
+
+                    Mağarada Dilek Gölü ve Büyük Göl gibi birbirine bağlantılı dokuz göl bulunur. Son yıllarda çevrede
+                    sondajlar
+                    ile yeraltı suyunun aşırı kullanımı, mağara içindeki gölleri kurumuştur.[2]
+
+                    İnsuyu Mağarası'nda araştırma çalışmalarına devam edilmektedir. Son çalışmalar ile mağaranın devamı
+                    olan
+                    yeni galeriler olduğu tespit edilmiştir. Bu araştırma ile elde edilen galeriler ve diğer bulgular
+                    1/1000
+                    ölçekli kroki üzerinde işaretlenmiştir.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="bilgiler" id="sagalasos">
+            <div class="sol-text" style="padding-top: 0;;">
+                <h1>SAGALASOS ANTİK KENTİ</h1>
+                <p>
+                    Sagalassos, Ağlasun İlçesi'nin 7 kilometre kuzeyinde ve Akdağ yamaçlarında denizden 1700 metre
+                    yüksekliğindedir. Sagalassos, Pisidia Bölgesi'nin Roma İmparatorluk Dönemi'nin en önemli şehridir.
+                    Şehirde bulunan yapıların büyük bir çoğunluğu Roma Dönemi'ne aittir. Sagalassos’un ilk tespiti 1706
+                    yılında Fransız gezgin Paul Lucas tarafından yapılmıştır. Bulutların arasındaki şehirde girişte
+                    konutlar, aşağıda hamam, kireç ve metal fırınları, aşağı agora (çarşı), çeşme ve odeon, daha
+                    yukarıda,
+                    kuzeyedoğru ilerledikçe konutlar, sağ tarafta tiyatro, Neon kütüphanesi, Helenistikçeşme, seramik
+                    üretim
+                    merkezi, şehrin merkezinde yukarı agora, meclis binası, kilise, sol üst tarafta heroon, tapınak ve
+                    Cladius kapısı bulunmaktadır.Sagalassoslular M.Ö. 3'üncü bin yılın sonlarında Batı ve Güney
+                    Anadolu’da
+                    yaşayan Luvi kabilelerinin bir kolu olan Pisidia halkındandır. M.Ö. 333 yılında Büyük İskender, bu
+                    şehri
+                    ele geçirmiştir. Sagalassos, Seleucid (Seleukos) ve Attalid (Attalos) hakimiyetlerine girmiş, M.Ö.
+                    25
+                    yılında Galatia kralı Amyntas’ın, ardından Agustus tarafından Roma İmparatorluğu topraklarına
+                    katılmıştır. Hadrian’ın 120’li yıllarda Sagalassos’u Pisidia imparatorluk kültünün resmi merkezi
+                    seçmesi
+                    üzerine başlayan çok daha büyük çaplı ekonomik büyüme, bir yüzyıl sürecek imar büyümesini
+                    başlatmıştır.
+                    6'ncı yüzyılın ortasına kadar gelişmeye devam eden kent M.S. 590 yılında yaşanan büyük depremde
+                    yerle
+                    bir olmuştur. M.S. 13'üncü yüzyıl ortalarında Selçukluların son Bizans kalelerini de ortadan
+                    kaldırmasına kadar kentin yıkıntıları arasında birkaç küçük köy ayakta kalmaya devam etmiştir.En
+                    belirgin yapısı muhteşem Antoninler çeşmesidir.
+                </p>
+            </div>
+
+            <div class="sag-foto" style="padding-top: 100px;">
+                <img src="photos/sagalasos.jpg">
+            </div>
+
+        </div>
+
+        </div>
+
+
+        <div class="bilgiler" id="incirhan">
+
+            <div class="sag-foto" style="padding-top: 50px;">
+                <img src="photos/incirhan.jpg">
+            </div>
+
+            <div class="sol-text" style="padding-top: 0;padding-left: 10px;">
+                <h1>İNCİRHAN</h1>
+                <p>
+                    Burdur’un Bucak ilçesi İncirönü mevkiinde olup Eğridir’deki Sultan Hanı ile Kırkgöz Han’ın da
+                    kurucusu
+                    olan Anadolu Selçuklu Sultanı II. Gıyâseddin Keyhusrev tarafından 636 (1238-39) yılında
+                    yaptırılmıştır.
+                    Sultan hanlarının plan şemasında ele alınan İncir Hanı’nın kapalı (kışlık) bölümü sağlam olmakla
+                    birlikte öndeki avlusu yıkılmıştır. Eni kapalı bölümünden daha geniş olan avlunun yalnızca batı
+                    duvarıyla bunun kapalı bölümle birleşen dış köşesindeki kare kesitli payanda kısmen mevcuttur.
+                    Avlunun
+                    revaklı olup olmadığı, burada son yıllarda Rahmi Hüseyin Ünal tarafından yapılan kazı çalışmalarının
+                    sonunda anlaşılacaktır.
+
+                    Kesmetaş kaplamaya sahip olan İncir Hanı’nın yapımında çevredeki antik malzemeden de
+                    faydalanılmıştır.
+                    Kesmetaş kaplaması birçok yerde söküldüğünden moloz dolgu ortaya çıkmıştır. Yaklaşık 30 × 42 m.
+                    ölçüsünde olan kapalı bölümünün duvarları dıştan sekiz adet duvar payandasıyla takviye edilmiştir.
+                    İçte
+                    yirmi dört kalın pâyeye oturan sivri kemerlerin taşıdığı tonozlarla enine yedi nefli olarak
+                    düzenlenmiş
+                    olan yapıda, kapı ekseninde yer alan dikey bir nef yan nefleri boydan boya kesmektedir. Benzer
+                    planlara
+                    sahip olan diğer hanlardakine göre daha yüksek olan bu orta nefin merkezinde bir kubbenin bulunduğu
+                    kabul edilmektedir. Beden duvarlarına açılan on beş adet mazgal pencereyle kapalı bölümün hava ve
+                    ışık
+                    ihtiyacı sağlanmıştır.
+
+                    Güneyde cephe ortasında yer alan dışa taşkın taçkapının nişi, içeriye doğru daralan istiridye kabuğu
+                    biçiminde yivli tonozla örtülüdür. Üst kısmı yıkık olan taçkapı iki yanda birer bordürle
+                    süslenmiştir.
+                    Tonoz kemerini kuşatan geçmeli bordürün iki ucundaki kemer başlangıçlarında karşılıklı birer aslan
+                    kabartması yer almaktadır.
+
+
+                </p>
+            </div>
+
+        </div>
     </main>
+
 
 
     <footer>
@@ -122,6 +301,11 @@
             Powered by Salih Berkant ÜNAL
         </div>
     </footer>
+
+
+
+
+
 
 
 </body>
