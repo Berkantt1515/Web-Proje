@@ -111,9 +111,6 @@ header {
 main {
     background-color: #EEEEEE;
 }
-.carousel slide{
-
-}
 
 .carousel {
     margin-top: 20px;
@@ -125,7 +122,6 @@ main {
 .carousel-inner {
     width: 70%;
     height: auto;
-    ;
     object-fit: contain;
     margin: auto;
     display: block;
@@ -142,6 +138,12 @@ main {
     filter: invert(1) !important;
     height: 25px;
     width: 25px;
+}
+
+.cizgi{
+    font-size: 3rem;
+    color: #76ABAE;
+
 }
 
 .bilgiler{

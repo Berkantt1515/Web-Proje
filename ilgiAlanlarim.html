@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +23,7 @@
 
 
 </head>
+
 <body>
     <nav>
         <div class="container clearfix">
@@ -79,12 +81,49 @@
         </div>
     </nav>
 
-    <header class="container text-uppercase">
+    <header class=" text-uppercase">
         <div class="baslik">
             ilgi alanlarım
         </div>
     </header>
-    
+
+    <main id="main-content">
+        <button onclick="fetchData()">Veriyi Getir</button>
+        <div id="data-content">asdasdas</div>
+    </main>
+
+
+    <script>
+        // API URL
+        const api_url = 'https://api.collectapi.com/football/leaguesList';
+
+        function fetchData() {
+            fetch(api_url, {
+                headers: {
+                    request: 'GET',
+                    'Content-Type': 'application/json',
+                    'Authorization': 'apikey your_token'
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("HTTP error " + response.status);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const dataContent = document.getElementById('data-content');
+                let content = '';
+                data.result.forEach(item => {
+                    content += `<h2>${item.league}</h2><p>${item.country}</p>`;
+                });
+                dataContent.innerHTML = content;
+            })
+            .catch(error => {
+                console.log('Error:', error);
+            });
+        }
+    </script>
 
     <footer>
         <div>
@@ -92,6 +131,7 @@
         </div>
     </footer>
 
-    
+
 </body>
+
 </html>

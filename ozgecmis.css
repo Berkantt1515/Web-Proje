@@ -1,25 +1,14 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-size: 8px;
-
-
 }
 
 
 body {
-    font-family: "Lato", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.50;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .container {
@@ -49,14 +38,17 @@ ul {
     text-transform: uppercase;
 }
 
+
+
 /*Navbar*/
 
 nav {
     font-family: Montserrat;
-    background-color: #2c3e4f;
+    background-color: #222831;
     color: #fff;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
 }
 
 #logo-box {
@@ -69,7 +61,7 @@ nav {
     font-weight: 700;
     font-size: 3rem;
     margin-left: 50px;
-    
+
 }
 
 #nav-links {
@@ -96,32 +88,169 @@ nav {
 }
 
 /*header*/
-
+header {
+    background-color: #EEEEEE;
+}
 
 .baslik {
-    background-color: black;
+    background-color: #76ABAE;
     color: #fff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-family: Montserrat; 
-    font-size: 1.4rem; 
-    font-weight: 700; 
-    letter-spacing: 0.1rem; 
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
+
+/*main*/
+main {
+    background-color: #EEEEEE;
+}
+
+.main-box {
+    display: flex;
+}
+
+.ozgecmis1 {
+    background-color: #607274;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 200px;
+    border: 2px solid #222831;
+    
+}
+
+.part1, .part2 , .part3{
+    flex: 1;
+}
+
+.part1{
+    font-family: "Oswald" , sans-serif;
+    
+    font-size: medium;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+.part2{
+    font-family: "Oswald" , sans-serif;
+    font-size: medium;
+    color: #EEEEEE;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 3rem;
+}
+
+.part3{
+    font-family: "Oswald" , sans-serif;
+    margin-left: 20px;
+    color: #EEEEEE;
+    font-size: medium;
+    line-height: 2.5rem;
+    margin-bottom:400px;
+
+}
+
+
+
+
+.ozgecmis1 img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #222831;
+}
+
+.ozgecmis1 h2 {
+    font-family:"Oswald",sans-serif ;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+
+
+h2::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000;
+    margin-left: 10px;
+}
+
+.ozgecmis2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    width: 70%;
+    margin-right:200px;
+    border: 2px solid #222831;
+    border-left: 0;
+}
+
+.ozgecmis2 h2 {
+    font-family:"Oswald",sans-serif ;
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+
+.part4 , .part5, .part6 {
+    flex: 1;
+}
+
+.part6 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "montserrat",sans-serif;
+    font-size: x-large;
+    font-weight:700;
+    color: #607274;
+}
+
+.part4 {
+    font-family: "Oswald" , sans-serif;
+    font-size: medium;
+    color: #607274;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 2.5rem;
+}
+
+.part5 {
+    font-family: "Oswald" , sans-serif;
+    font-size: medium;
+    color: #607274;
+    margin-left: 20px;
+    line-height: 3rem;
+
+}
+
+
+
+  
+
+
+
 
 /*footer*/
 
 footer {
-    background-color: #2c3e4f;
+
+    background-color: #222831;
     color: #fff;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: absolute;
-    bottom: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     width: 100%;
-
 }
