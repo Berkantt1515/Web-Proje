@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,9 +20,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="iletisim.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <style>
+        /* Custom CSS for responsiveness */
+        @media (max-width: 992px) {
+            #nav-links ul {
+                flex-direction: column;
+                padding: 0;
+                text-align: center;
+            }
+
+            #nav-links ul li {
+                margin-bottom: 10px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+
+            .baslik {
+                font-size: 24px;
+            }
+
+            header, main, footer {
+                padding: 0 15px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .baslik {
+                font-size: 20px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .baslik {
+                font-size: 16px;
+            }
+        }
+    </style>
 
 </head>
+
 <body>
     <nav>
         <div class="container clearfix">
@@ -79,12 +121,39 @@
         </div>
     </nav>
 
-    <header class="container text-uppercase">
+    <header class="text-uppercase">
         <div class="baslik">
             iletişim
         </div>
     </header>
-    
+
+    <main>
+        <div id="app">
+            <form @submit.prevent="submitForm" action="iletisim.php" method="post">
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <label for="name" class="form-label">Adınız</label>
+                        <input type="text" class="form-control" id="name" name="name" v-model="name" required>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <label for="email" class="form-label">E-posta Adresiniz</label>
+                        <input type="email" class="form-control" id="email" name="email" v-model="email" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesajınız</label>
+                    <textarea class="form-control" id="message" name="message" v-model="message" rows="3" required></textarea>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="btn btn-secondary">Gönder</button>
+                    <button type="button" class="btn btn-secondary" @click="clearForm">Temizle</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
 
     <footer>
         <div>
@@ -92,6 +161,45 @@
         </div>
     </footer>
 
-    
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                name: '',
+                email: '',
+                message: ''
+            },
+            methods: {
+                async submitForm() {
+                    if (this.name && this.email && this.message) {
+                        try {
+                            const response = await axios.post('iletisim.php', {
+                                name: this.name,
+                                email: this.email,
+                                message: this.message
+                            });
+                            if (response.status === 200) {
+                                alert('Form başarıyla gönderildi!');
+                                window.location.href = 'iletisim.php'; // Kullanıcıyı iletisim.php sayfasına yönlendir
+                            } else {
+                                alert('Form gönderilirken bir hata oluştu!');
+                            }
+                        } catch (error) {
+                            console.error(error);
+                        }
+                    } else {
+                        alert('Lütfen tüm alanları doldurunuz!');
+                    }
+                },
+                clearForm() {
+                    this.name = '';
+                    this.email = '';
+                    this.message = '';
+                },
+            }
+        });
+    </script>
+
 </body>
+
 </html>
