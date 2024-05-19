@@ -2,7 +2,6 @@ html {
     font-size: 8px;
 }
 
-
 body {
     font-size: 1.6rem;
     font-weight: 400;
@@ -12,18 +11,18 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 90%;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0.5;
-    padding-right: 0.5;
-
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
-
 
 .clearfix::after {
     content: "";
     display: block;
+    clear: both;
 }
 
 a {
@@ -32,18 +31,16 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0;
 }
 
 .text-uppercase {
     text-transform: uppercase;
 }
 
-
-
-/*Navbar*/
-
+/* Navbar */
 nav {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     background-color: #222831;
     color: #fff;
     padding-top: 1rem;
@@ -61,7 +58,6 @@ nav {
     font-weight: 700;
     font-size: 3rem;
     margin-left: 50px;
-
 }
 
 #nav-links {
@@ -87,7 +83,7 @@ nav {
     color: #1abc9b;
 }
 
-/*header*/
+/* Header */
 header {
     background-color: #EEEEEE;
 }
@@ -100,47 +96,45 @@ header {
     text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
 }
 
-/*main*/
+/* Main */
 main {
     background-color: #EEEEEE;
 }
 
 .main-box {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .ozgecmis1 {
     background-color: #607274;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    margin-left: 200px;
+    width: 100%;
+    max-width: 350px;
     border: 2px solid #222831;
-    
+    padding: 20px;
 }
 
-.part1, .part2 , .part3{
+.part1, .part2, .part3 {
     flex: 1;
 }
 
-.part1{
-    font-family: "Oswald" , sans-serif;
-    
+.part1 {
+    font-family: "Oswald", sans-serif;
     font-size: medium;
-    margin: 50px;
-    margin-bottom: 100px;
+    margin: 20px auto;
 }
 
-.part2{
-    font-family: "Oswald" , sans-serif;
+.part2 {
+    font-family: "Oswald", sans-serif;
     font-size: medium;
     color: #EEEEEE;
     margin-left: 20px;
@@ -148,18 +142,14 @@ main {
     line-height: 3rem;
 }
 
-.part3{
-    font-family: "Oswald" , sans-serif;
+.part3 {
+    font-family: "Oswald", sans-serif;
     margin-left: 20px;
     color: #EEEEEE;
     font-size: medium;
     line-height: 2.5rem;
-    margin-bottom:400px;
-
+    margin-bottom: 20px;
 }
-
-
-
 
 .ozgecmis1 img {
     width: 100%;
@@ -168,13 +158,11 @@ main {
 }
 
 .ozgecmis1 h2 {
-    font-family:"Oswald",sans-serif ;
+    font-family: "Oswald", sans-serif;
     font-size: large;
     display: flex;
     align-items: center;
 }
-
-
 
 h2::after {
     content: "";
@@ -185,41 +173,41 @@ h2::after {
 }
 
 .ozgecmis2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     background-color: #EEEEEE;
-    width: 70%;
-    margin-right:200px;
+    width: 100%;
+    max-width: 700px;
     border: 2px solid #222831;
-    border-left: 0;
+    padding: 20px;
 }
 
 .ozgecmis2 h2 {
-    font-family:"Oswald",sans-serif ;
+    font-family: "Oswald", sans-serif;
     font-size: large;
     display: flex;
     align-items: center;
 }
 
-.part4 , .part5, .part6 {
+.part4, .part5, .part6 {
     flex: 1;
 }
 
-.part6 { 
+.part6 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: x-large;
-    font-weight:700;
+    font-weight: 700;
     color: #607274;
+    margin-bottom: 20px;
 }
 
 .part4 {
-    font-family: "Oswald" , sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: medium;
     color: #607274;
     margin-left: 20px;
@@ -228,29 +216,56 @@ h2::after {
 }
 
 .part5 {
-    font-family: "Oswald" , sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: medium;
     color: #607274;
     margin-left: 20px;
     line-height: 3rem;
-
 }
 
-
-
-  
-
-
-
-
-/*footer*/
-
+/* Footer */
 footer {
-
     background-color: #222831;
     color: #fff;
     text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #logo-box .logo {
+        font-size: 2rem;
+        margin-left: 20px;
+    }
+
+    #nav-links {
+        float: none;
+        text-align: center;
+    }
+
+    #nav-links .nav-item {
+        float: none;
+        display: inline-block;
+    }
+
+    .main-box {
+        flex-direction: column;
+    }
+
+    .ozgecmis1, .ozgecmis2 {
+        margin: 20px auto;
+        width: 90%;
+    }
+
+    .part1 img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .part2, .part3, .part4, .part5, .part6 {
+        margin-left: 0;
+        text-align: center;
+    }
 }

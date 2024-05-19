@@ -47,7 +47,7 @@ ul {
 }
 
 p {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
@@ -130,19 +130,29 @@ main { background-color: #EEEEEE;}
 
 .main-box {
     display: flex;
+    flex-direction: column;
 }
 .main-box div {
-    width: 50%;
+    width: 100%;
     margin:1px;
     padding:1px;
 } 
 
 .main-picture img {
-    width: 50%;
+    justify-content: left;
+    width: 30%;
     height: auto; 
-    margin-top: 7px;
-    margin-left: 170px;
+    margin-bottom: 50px;
+    margin-left:170px;
     border-radius: 10px;
+}
+
+a img {
+    transition: transform 0.3s ease;
+}
+
+a:hover img {
+    transform: scale(1.1);
 }
 
 

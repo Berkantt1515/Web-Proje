@@ -1,3 +1,66 @@
+/* Küçük cihazlar (telefonlar, 600px ve aşağısı) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #cat {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #logo-box .logo, #nav-links .nav-link {
+        font-size: 2rem;
+    }
+
+    .baslik, button {
+        font-size: 1.5rem;
+    }
+}
+
+/* Orta boy cihazlar (tabletler, 768px ve aşağısı) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #cat {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #logo-box .logo, #nav-links .nav-link {
+        font-size: 2.5rem;
+    }
+
+    .baslik, button {
+        font-size: 2rem;
+    }
+}
+
+/* Büyük cihazlar (dizüstü bilgisayarlar, 992px ve aşağısı) */
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #cat {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #logo-box .logo, #nav-links .nav-link {
+        font-size: 3rem;
+    }
+
+    .baslik, button {
+        font-size: 2.5rem;
+    }
+}
+
 html {
     font-size: 8px;
 }
@@ -109,6 +172,43 @@ header {
 /*main*/
 main {
     background-color: #EEEEEE;
+}
+
+#cat {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 500px; 
+    height: 400px; 
+}
+
+#cat img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 76px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #76ABAE;
+    background-color: #222831;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+button:hover {
+    background-color:darkslategray;
 }
 
 

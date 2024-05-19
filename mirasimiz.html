@@ -4,84 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sbace</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Oswald:wght@200..700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="mirasimiz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-
+    <link rel="stylesheet" href="mirasimiz.css">
 </head>
 
 <body>
     <nav>
-        <div class="container clearfix">
+        <div class="container d-flex justify-content-between align-items-center">
             <div id="logo-box">
                 <a href="hakkimda.html" class="logo text-uppercase">
                     Anasayfa
                 </a>
             </div>
-
-            <div id="nav-links">
-                <ul>
-                    <li class="nav-item ">
+            <div id="nav-links" class="d-none d-md-block">
+                <ul class="nav">
+                    <li class="nav-item">
                         <a href="hakkimda.html" class="nav-link text-uppercase">
                             Hakkımda
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="ozgecmis.html" class="nav-link text-uppercase">
                             Özgeçmiş
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="sehrim.html" class="nav-link text-uppercase">
                             Şehrim
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="mirasimiz.html" class="nav-link text-uppercase">
                             Mirasımız
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="ilgiAlanlarim.html" class="nav-link text-uppercase">
                             İlgi Alanlarım
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="giris.html" class="nav-link text-uppercase">
                             Giriş
                         </a>
                     </li>
-
                     <li class="nav-item">
                         <a href="iletisim.html" class="nav-link text-uppercase">
                             İletişim
                         </a>
                     </li>
+                </ul>
+            </div>
+            <div class="dropdown d-md-none">
+                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fas fa-bars fa-2x"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="hakkimda.html">Hakkımda</a></li>
+                    <li><a class="dropdown-item" href="ozgecmis.html">Özgeçmiş</a></li>
+                    <li><a class="dropdown-item" href="sehrim.html">Şehrim</a></li>
+                    <li><a class="dropdown-item" href="mirasimiz.html">Mirasımız</a></li>
+                    <li><a class="dropdown-item" href="ilgiAlanlarim.html">İlgi Alanlarım</a></li>
+                    <li><a class="dropdown-item" href="giris.html">Giriş</a></li>
+                    <li><a class="dropdown-item" href="iletisim.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
@@ -94,85 +91,42 @@
     </header>
 
     <main>
-        <div style="display: flex; justify-content: space-between; width: 100% ; padding: 10px;">
-            <div class="dropdown">
-                <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <i class="fas fa-bars fa-2x"></i>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#salda1">Genel Bilgiler</a></li>
-                    <li><a class="dropdown-item" href="#salda2">Kumsal</a></li>
-                    <li><a class="dropdown-item" href="#salda3">Gölün Özellikleri</a></li>
-                    <li><a class="dropdown-item" href="#salda4">Biyolojik Çeşitlilik</a></li>
-                </ul>
-            </div>
-            <div class="main-box">
-                <H1 id="salda1">Salda Gölü</H1>
-                <p>
-                    Salda Gölü, Burdur’un yaklaşık 64 km batısında Yeşilova ilçe sınırlarında yer alır. Türkiye’nin en
-                    derin, en
-                    temiz, en berrak özelliklere sahip göllerindendir.
-                </p>
+        <div class="main-box">
+            <h1 id="salda1">Salda Gölü</h1>
+            <p>
+                Salda Gölü, Burdur’un yaklaşık 64 km batısında Yeşilova ilçe sınırlarında yer alır. Türkiye’nin en
+                derin, en temiz, en berrak özelliklere sahip göllerindendir.
+            </p>
+            <img src="photos/salda1.jpg" alt="Salda Gölü Genel Görünüm">
 
-                <img src="photos/salda1.jpg">
+            <p>
+                Deniz seviyesinden yüksekliği 1140 metredir. Yüz ölçümü 44 kilometrekaredir. Göl, yaz ve kış aylarında
+                turizm hareketliğinin yoğun olduğu Antalya-Denizli- Pamukkale tur güzergâhında bulunmaktadır. Ormanlık
+                tepelerle ve ovalarla çevrili tektonik bir göldür. Derinliği bazı yerlerde 185 metredir. Güney cephesinde bulunan Sultan Pınar suyu burayı bir mesire yeri haline getirmiştir. Salda Gölü, kumsalı, turkuaz rengiyle oluşan güzel manzarası, temiz doğası, ormanları ve kamp yerleriyle alternatif tatil imkânları sunan, doğanın en cömert olduğu alanlardandır. Birçok kuş türüne ev sahipliği yapmaktadır. Salda Gölü yelken, kano, rüzgâr sörfü, foto-safari, göl turu, balık avcılığı, sualtı dalış, yüzme vb. imkânlar sunmaktadır.
+            </p>
+            <img src="photos/salda2.jpg" alt="Salda Gölü Kumsal">
 
-                <p>
-                    Deniz seviyesinden yüksekliği 1140 metredir. Yüz ölçümü 44 kilometrekaredir. Göl, yaz ve kış
-                    aylarında
-                    turizm hareketliğinin yoğun olduğu Antalya-Denizli- Pamukkale tur güzergâhında bulunmaktadır.
-                    Ormanlık
-                    tepelerle ve ovalarla çevrili tektonik bir göldür. Derinliği bazı yerlerde 185 metredir. Güney
-                    cephesinde bulunan Sultan Pınar suyu burayı bir mesire yeri haline getirmiştir.Salda Gölü, kumsalı,
-                    turkuaz rengiyle oluşan güzel manzarası, temiz doğası, ormanları ve kamp yerleriyle alternatif tatil
-                    imkânları sunan, doğanın en cömert olduğu alanlardandır. Birçok kuş türüne ev sahipliği yapmaktadır.
-                    Salda Gölü yelken, kano, rüzgâr sörfü, foto-safari, göl turu, balık avcılığı, sualtı dalış, yüzme
-                    vb. imkânlar sunmaktadır.
-                </p>
-                <img src="photos/salda2.jpg">
+            <h1 id="salda2">Salda Gölü’nün Kumları Neden Beyaz?</h1>
+            <p>
+                Toros Dağları’nın arasında bulunan Salda Gölü magnezyum yönünden çok zengin olması nedeniyle kumsalı
+                beyaz renge sahiptir.
+            </p>
+            <img src="photos/salda3.jpg" alt="Salda Gölü Beyaz Kumlar">
 
-                <h1 id="salda2">Salda Gölü’nün Kumları Neden Beyaz?</h1>
-                <p>
-                    Toros Dağları’nın arasında bulunan Salda Gölü magnezyum yönünden çok zengin olması nedeniyle kumsalı
-                    beyaz renge sahiptir.
-                </p>
-                <img src="photos/salda3.jpg">
+            <h1 id="salda3">Salda Gölü’nün Özellikleri</h1>
+            <p>
+                Salda Gölü’nü diğer göllerden ayıran en önemli özellik stromatolit (arkaik dönemde oluşmaya başlamış ve oluşumu hala devam ettiği düşünülen bakteriyel kökenli beyaz kayaçlar) oluşumlarına uygun jeobiyokimyasal bir ekolojik sürece sahip olmasıdır. Bu süreç sonunda tabanda beyaz renkli hidromanyezit içerikli stromatolitler oluşmuştur. İklim, jeolojik yapılar ve bakteri ile siyanobakteri etkileşimi sonucu oluşan bu çökellerin, ilk kez 3,5 milyar yıl önce yeryüzünde oluşmaya başladıkları çeşitli kaynaklarda belirtilmektedir. Bir anlamda bu oluşumların en eski fosil niteliğinde oldukları kabul edilmektedir. Günümüzde bu fosillerin güncel örnekleri olan modern stromatolit oluşumları Salda Gölü’nde gözlenmektedir.
+                Birçok araştırıcı tarafından, öncül yaşam biçimlerine ve ilkel yaşam koşullarına dair önemli veriler içerdiği düşünülen stromatolitlerin oluşum mekanizmaları ile bu süreçleri kontrol eden jeobiyokimyasal faktörlerin anlaşılmasının Dünya’da yaşamın başlangıcı konusunda önemli bilgiler vereceği düşünülmektedir. Diğer yandan yine birçok otorite, Salda Gölü’nde yürütülecek araştırmalardan Dünya dışındaki yaşam hakkında da önemli sonuçlar beklemektedir. Salda Gölü’nde güncel olarak oluşan hidromanyezit içerikli stromatolitler ile Mars’taki karbonat içerikli kayaçlar arasındaki benzerliklerin NASA’nın da dikkatini çektiği, güncel yayın organlarında yer almaktadır.
+            </p>
+            <img src="photos/salda4.jpg" alt="Salda Gölü Özellikler">
 
-                <h1 id="salda3">Salda Gölü’nün Özellikleri</h1>
-                <p>
-                    Salda Gölü’nü diğer göllerden ayıran en önemli özellik stromatolit (arkaik dönemde oluşmaya başlamış
-                    ve oluşumu hala devam ettiği düşünülen bakteriyel kökenli beyaz kayaçlar) oluşumlarına uygun
-                    jeobiyokimyasal bir ekolojik sürece sahip olmasıdır. Bu süreç sonunda tabanda beyaz renkli
-                    hidromanyezit içerikli stromatolitler oluşmuştur. İklim, jeolojik yapılar ve bakteri ile
-                    siyanobakteri etkileşimi sonucu oluşan bu çökellerin, ilk kez 3,5 milyar yıl önce yeryüzünde
-                    oluşmaya başladıkları çeşitli kaynaklarda belirtilmektedir. Bir anlamda bu oluşumların en eski fosil
-                    niteliğinde oldukları kabul edilmektedir. Günümüzde bu fosillerin güncel örnekleri olan modern
-                    stromatolit oluşumları Salda Gölü’nde gözlenmektedir.
-                    Birçok araştırıcı tarafından, öncül yaşam biçimlerine ve ilkel yaşam koşullarına dair önemli veriler
-                    içerdiği düşünülen stromatolitlerin oluşum mekanizmaları ile bu süreçleri kontrol eden
-                    jeobiyokimyasal faktörlerin anlaşılmasının Dünya’da yaşamın başlangıcı konusunda önemli bilgiler
-                    vereceği düşünülmektedir. Diğer yandan yine birçok otorite, Salda Gölü’nde yürütülecek
-                    araştırmalardan Dünya dışındaki yaşam hakkında da önemli sonuçlar beklemektedir. Salda Gölü’nde
-                    güncel olarak oluşan hidromanyezit içerikli stromatolitler ile Mars’taki karbonat içerikli kayaçlar
-                    arasındaki benzerliklerin NASA’nın da dikkatini çektiği, güncel yayın organlarında yer almaktadır.
-                </p>
-                <img src="photos/salda4.jpg">
-
-                <h1 id="salda4">Salda Gölü ve Biyolojik Çeşitlilik</h1>
-                <p>
-                    Salda Gölü ve çevresinde sulak alan, dere, kumul, ibreli (iğne yapraklı) orman, ağaçlık, dağ
-                    bozkırı, kayalık, tarım gibi habitatlar mevcuttur. Salda Gölü’nün çevresindeki ibreli orman
-                    habitatları doğu bölümü hariç gölün tüm çevresinde olup kızılçam, karaçam, boylu ardıçlar, saf ve
-                    karışık ormanlar ile yer yer seyrek ormanlardan oluşmaktadır.Salda Gölü Havzası’nda 81 familyaya ait
-                    301 sucul ve karasal bitki türü olduğu belirlenmiştir. Ayrıca sonbahar ve kış dönemlerinde su
-                    kuşları için önemli bir duraklama ve yaşam alanı vazifesi gören Salda Gölü, 38 farklı su kuşuna ev
-                    sahipliği yapmaktadır.
-                </p>
-                <img src="photos/salda5.jpg">
-
-            </div>
+            <h1 id="salda4">Salda Gölü ve Biyolojik Çeşitlilik</h1>
+            <p>
+                Salda Gölü ve çevresinde sulak alan, dere, kumul, ibreli (iğne yapraklı) orman, ağaçlık, dağ bozkırı, kayalık, tarım gibi habitatlar mevcuttur. Salda Gölü’nün çevresindeki ibreli orman habitatları doğu bölümü hariç gölün tüm çevresinde olup kızılçam, karaçam, boylu ardıçlar, saf ve karışık ormanlar ile yer yer seyrek ormanlardan oluşmaktadır. Salda Gölü Havzası’nda 81 familyaya ait 301 sucul ve karasal bitki türü olduğu belirlenmiştir. Ayrıca sonbahar ve kış dönemlerinde su kuşları için önemli bir duraklama ve yaşam alanı vazifesi gören Salda Gölü, 38 farklı su kuşuna ev sahipliği yapmaktadır.
+            </p>
+            <img src="photos/salda5.jpg" alt="Salda Gölü Biyolojik Çeşitlilik">
+        </div>
     </main>
-
 
     <footer>
         <div>
@@ -185,11 +139,11 @@
             var dropdown = document.querySelector(".dropdown");
             var scrollPosition = window.scrollY;
 
-            if (scrollPosition > 100) { 
+            if (scrollPosition > 100) {
                 dropdown.style.position = "fixed";
-                dropdown.style.top = "0"; 
-            } else { 
-                dropdown.style.position = "static"; 
+                dropdown.style.top = "0";
+            } else {
+                dropdown.style.position = "static";
             }
         });
     </script>

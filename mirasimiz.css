@@ -1,28 +1,23 @@
-
-
+/* Base Styles */
 html {
     font-size: 8px;
 }
-
 
 body {
     font-family: "Oswald", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.50;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
 }
 
 .container {
-    width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5;
-    padding-right: 0.5;
-
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
 }
-
 
 .clearfix::after {
     content: "";
@@ -45,21 +40,16 @@ li {
     text-transform: uppercase;
 }
 
-
-
-/*Navbar*/
-
+/* Navbar */
 nav {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     background-color: #222831;
     color: #fff;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
 #logo-box {
-    float: left;
     padding-top: 0.5rem;
 }
 
@@ -68,19 +58,13 @@ nav {
     font-weight: 700;
     font-size: 3rem;
     margin-left: 50px;
-    
 }
 
 #nav-links {
-    float: right;
+    display: none;
 }
 
-#nav-links .nav-item {
-    float: left;
-    margin: 0.5rem;
-}
-
-#nav-links .nav-link {
+.nav-link {
     color: #fff;
     font-size: 1.4rem;
     font-weight: 700;
@@ -90,74 +74,86 @@ nav {
     transition: color 0.4s;
 }
 
-#nav-links .nav-link:hover {
+.nav-link:hover {
     color: #1abc9b;
 }
 
-/*header*/
-header{
+.dropdown-menu {
+    background-color: #76ABAE;
+    color: #fff;
+    font-size: large;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 0.1rem;
+}
+
+.dropdown-item {
+    border-radius: 10px;
+}
+
+.nav-link .fas:hover {
+    color: #76ABAE;
+}
+
+/* Header */
+header {
     background-color: #EEEEEE;
 }
 
 .baslik {
-    background-color:#76ABAE;
+    background-color: #76ABAE;
     color: #fff;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    font-family: Montserrat; 
-    font-size: 1.4rem; 
-    font-weight: 700; 
-    letter-spacing: 0.1rem; 
+    font-family: Montserrat, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
 }
 
-/*main*/
+/* Main */
 main {
     background-color: #EEEEEE;
+    flex: 1;
 }
 
-p { 
-    font-family: "Oswald", sans-serif; 
+p {
+    font-family: "Oswald", sans-serif;
     font-size: 2.3rem;
     color: #222831;
     line-height: 1.5;
     margin-bottom: 1.5rem;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 .main-box {
     display: flex;
-    justify-content:space-between;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 200px;
-    margin-top: 20px;
-    margin-right: 200px;
+    padding: 0 20px;
+    margin: 20px auto;
+    max-width: 1000px;
 }
 
 .main-box h1 {
     font-family: "Montserrat", sans-serif;
-     text-align: center;
-     font-weight: 700;
+    text-align: center;
+    font-weight: 700;
     font-size: 3.5rem;
     color: #222831;
     padding-top: 10px;
 }
 
-
 .main-box img {
-    width: 1000px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
-
 }
 
-.dropdown{
+/* Dropdown */
+.dropdown {
     padding-top: 20px;
     position: fixed;
 }
@@ -170,37 +166,28 @@ p {
     display: none;
 }
 
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: #76ABAE;
-    color: #fff;
-    font-size: large;
-    border-radius: 10px;
-    padding: 1rem;
-    margin-top: 0.1rem;
-}
-.dropdown-item {
-    border-radius: 10px;
-}
-
-.nav-link .fas:hover {
-    color: #76ABAE;
-}
-
-
-
-
-
-
-/*footer*/
-
+/* Footer */
 footer {
-    
     background-color: #222831;
     color: #fff;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 0;
     width: 100%;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    #nav-links {
+        display: block;
+    }
+
+    .dropdown {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #logo-box .logo {
+        margin-left: 0;
+    }
 }

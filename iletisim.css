@@ -170,3 +170,35 @@ footer {
     padding-bottom: 0.5rem;
     width: 100%;
 }
+
+/* CSS */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .baslik {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #app form .row {
+        flex-direction: column;
+    }
+
+    #app form .row .col-lg-6 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .button-container .btn {
+        margin-bottom: 10px;
+    }
+
+}

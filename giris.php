@@ -29,6 +29,8 @@
                 echo "<script>setTimeout(function(){window.location.href='giris.html'}, 2000);</script>";
     }
 
+
+
     ?>
     
 </body>
