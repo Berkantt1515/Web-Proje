@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\migrations\\20251125162232_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:migrations\\20251125162232_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\trainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|c:\\users\\asus\\source\\repos\\webprogramlamaproje\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6CCDEF-76D9-48BD-9DB7-5433CCC86C37}|WebProgramlamaProje.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T16:39:13.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:33:37.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "Data\\DbSeeder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:28:24.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251125162232_IlkKurulum.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Migrations\\20251125162232_IlkKurulum.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251125162232_IlkKurulum.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Migrations\\20251125162232_IlkKurulum.cs",
+              "RelativeToolTip": "Migrations\\20251125162232_IlkKurulum.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:22:32.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T16:07:31.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Appointment.cs",
+              "RelativeToolTip": "Models\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:56:04.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Trainer.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Trainer.cs",
+              "RelativeDocumentMoniker": "Models\\Trainer.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Trainer.cs",
+              "RelativeToolTip": "Models\\Trainer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:54:20.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\Service.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Service.cs",
+              "RelativeToolTip": "Models\\Service.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:53:30.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gym.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Gym.cs",
+              "RelativeDocumentMoniker": "Models\\Gym.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\Gym.cs",
+              "RelativeToolTip": "Models\\Gym.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:52:11.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:49:40.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Asus\\source\\repos\\WebProgramlamaProje\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T15:48:19.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
